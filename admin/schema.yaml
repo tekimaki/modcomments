@@ -1,0 +1,13 @@
+---
+modcomments: 
+  homeable: false
+  required: false
+  requirements: 
+    liberty: 
+      min: 2.1.4
+  version: 0.0.0
+  description: >
+    Allow admins or content creators to
+    moderate comments.
+  license: 
+    html: '<a href="http://www.gnu.org/licenses/licenses.html#LGPL">LGPL</a>'

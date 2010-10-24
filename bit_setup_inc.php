@@ -7,6 +7,7 @@ $registerHash = array(
 $gBitSystem->registerPackage( $registerHash );
 
 if( $gBitSystem->isPackageActive( 'modcomments' ) ) {
+	/*
 	require_once( MODCOMMENTS_PKG_PATH.'modcomments_lib.php' );
 
 	$gLibertySystem->registerService( LIBERTY_SERVICE_MODCOMMENTS, MODCOMMENTS_PKG_NAME, array(
@@ -16,5 +17,6 @@ if( $gBitSystem->isPackageActive( 'modcomments' ) ) {
 		'content_list_tpl'          => 'bitpackage:modcomments/service_content_inc.tpl',
 		'content_body_tpl'          => 'bitpackage:modcomments/service_content_inc.tpl',
 	) );
+	 */
 }
 ?>

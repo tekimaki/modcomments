@@ -21,7 +21,7 @@
 			{/jstab}
 		{/jstabs}
 
-		<div class="row submit">
+		<div class="buttonHolder row submit">
 			<input type="submit" name="modcomments_prefs" value="{tr}Change preferences{/tr}" />
 		</div>
 	{/form}

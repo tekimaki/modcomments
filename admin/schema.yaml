@@ -15,9 +15,10 @@ modcomments:
     modcomments:
       handler_file: modcomments_lib.php
       api_handlers:
+        sql: 
+          content_list_sql: modcomments_content_list_sql
         function:
           content_store: modcomments_content_store
-          content_list_sql: modcomments_content_list_sql
         tpl:
           content_edit_mini: 'bitpackage:modcomments/service_content_edit_mini_inc.tpl'
           content_list: 'bitpackage:modcomments/service_content_inc.tpl'

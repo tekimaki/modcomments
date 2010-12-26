@@ -1,4 +1,6 @@
 <?php
+define( 'LIBERTY_SERVICE_MODCOMMENTS', 'modcomments' );
+
 $registerHash = array(
 	'package_name' => 'modcomments',
 	'package_path' => dirname( __FILE__ ).'/',
